@@ -15,6 +15,7 @@ export class LoginGuardian implements CanActivate{
         if(this.loginService.estaLogueado()){
 
             return true;
+        
 
         }
 
